@@ -103,3 +103,8 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+
+
+https://cdn2.iconfinder.com/data/icons/dark-action-bar-2/96/paste-512.png
