@@ -1,17 +1,32 @@
+var date = moment().format("MMM Do YYYY");
 //gets the data for the beginning date on our Header
-function getDate() {
-    var currentHeaderDate = moment().format('MMM Do YYY');
-    $('#currentDay').text(currentHeaderDate);
+$("#currentDay").append(date);
+// the ID I gave to the text area 
+var time = ["9", "10", "11", "12", "1", "2", "3", "4", "5"]
+
+$(".SaveBtn").on("click", function()  {
+
+    var time= $(this).parent().attr("id");
+
+    localStorage.setItem(time);
+    console.log(day);
 }
 
-$(document).ready(function  ()  {
 
-    // First method to get todays info
-console.log(moment());
+$("#9").children("input").val(localStorage.getItem("9"));
 
-console.log(moment().format());
+$("#10").children("input").val(localStorage.getItem("10"));
 
-$("currentDay").text(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
+$("#11").children("input").val(localStorage.getItem("11"));
 
+$("#12").children("input").val(localStorage.getItem("12"));
 
-})
+$("#1").children("input").val(localStorage.getItem("1"));
+
+$("#2").children("input").val(localStorage.getItem("2"));
+
+$("#3").children("input").val(localStorage.getItem("3"));
+
+$("#4").children("input").val(localStorage.getItem("4"));
+
+$("#5").children("input").val(localStorage.getItem("5"));

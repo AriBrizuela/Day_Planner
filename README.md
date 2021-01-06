@@ -108,3 +108,4 @@ You are required to submit BOTH of the following for review:
 
 
 https://cdn2.iconfinder.com/data/icons/dark-action-bar-2/96/paste-512.png
+https://fontawesome.com/icons/save?style=regular
